@@ -9,7 +9,7 @@ const Navbar = () => {
       <Pages  className="border-[0.8px]  bg-white/10 rounded-[16px] text-[#D1D5DC] "/>
       <MyButton
         text="navtext"
-        className="font-[500] text-base leading-normal"
+        className="text-regular-style"
       />
     </nav>
   );
