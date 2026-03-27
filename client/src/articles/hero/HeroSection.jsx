@@ -4,7 +4,9 @@ import HeroImage from './HeroImage'
 
 const HeroSection = () => {
   return (
-    <div className='mt-10'>
+    
+    <div className='lg:mt-[167px] flex justify-between'>
+      
         <HeroText />
         <HeroImage />
         

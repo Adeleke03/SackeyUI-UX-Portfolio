@@ -4,7 +4,7 @@ import MyButton from "../components/common/MyButton";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center text-white">
+    <nav className="lg:flex justify-between items-center text-white">
       <Logo />
       <Pages  className="border-[0.8px]  bg-white/10 rounded-[16px] text-[#D1D5DC] "/>
       <MyButton

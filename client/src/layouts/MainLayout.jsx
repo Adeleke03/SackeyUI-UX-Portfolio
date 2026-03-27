@@ -6,9 +6,9 @@ import Footer from "./Footer"
 const MainLayout = ({children}) => {
   return (
     
-    <div className='container mx-auto bg-[#0A0E1A] mt-5'>
+    <div className='container mx-auto bg-[#0A0E1A] lg:mt-[24px]'>
       <Navbar />
-      <main className='h-[85vh] '>
+      <main className=' '>
         {children}
       </main>
       <Footer />

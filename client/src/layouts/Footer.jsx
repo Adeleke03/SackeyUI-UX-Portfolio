@@ -4,7 +4,7 @@ import Pages from "../pages/Pages";
 
 const Footer = () => {
   return (
-    <footer className="text-[#99A1AF] flex items-center justify-between border-t-[1px] h-[200px] border-white/10">
+    <footer className="text-[#99A1AF] lg:flex items-center justify-between border-t-[1px] h-[200px] border-white/10">
       <div>
 
       <Logo />

@@ -1,22 +1,17 @@
 const HeroStat = () => {
+    const stats = [
+    { value: '5+', label: 'Years Experience' },
+    { value: '50+', label: 'Projects Delivered' },
+    { value: '98%', label: 'Client Satisfaction' }
+  ];
   return (
-    <div className="flex gap-[33px]">
-      
-      <p className="gradient-text font-[700]  text-[37px] leading-[37px] tracking-normal ">
-        5+
-        <br />
-        <span className="text-sm-style ">Years Experience</span>
-      </p>
-      <p className="gradient-text font-[700] text-[37px] leading-[37px] tracking-normal ">
-        50+
-        <br />
-        <span className="text-sm-style">Projects Delivered</span>
-      </p>
-      <p className="gradient-text font-[700] text-[37px] leading-[37px] tracking-normal ">
-        98%
-        <br />
-        <span className="text-sm-style">Client Satisfaction</span>
-      </p>
+    <div className="flex lg:gap-[33px]">
+      {stats.map((stat,index)=>(
+        <div key={index} className="text-start">
+          <div className="gradient-text font-[700]  lg:text-[37px] lg:leading-[37px] tracking-normal">{stat.value}</div>
+          <div className="text-sm-style">{stat.label}</div>
+        </div>
+      ))}
     </div>
   );
 };

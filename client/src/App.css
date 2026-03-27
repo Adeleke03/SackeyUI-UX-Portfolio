@@ -8,18 +8,41 @@
   @apply bg-gradient-to-r from-[#00D3F3] via-[#2B7FFF] to-[#9810FA] bg-clip-text text-transparent;
 }
 
+.aboutme-gradient-header {
+  @apply bg-gradient-to-r from-[#000000] via-[#00B8DB]/50 to-[#000000] bg-clip-text text-transparent
+}
+
 .hero-header-bg-gradient {
   @apply bg-gradient-to-r from-[#00B8DB]/10 to-[#AD46FF]/10  bg-clip-content;
 }
 
+.aboutme-bg-image-gradient {
+  @apply bg-gradient-to-r from-[#0F1419] to-[#1A1F2E] 
+}
+
+.aboutme-rating-bg-gradient {
+  @apply bg-gradient-to-r from-[#C27AFF] to-[#E60076]
+}
+.aboutme-caseStudy-bg-gradient {
+  @apply bg-gradient-to-r from-[#00D3F3] to-[#155DFC]
+}
+
+.hero-image-bg-gradient {
+  @apply bg-gradient-to-r from-[#FFFFFF]/5 to-[#000000]/0 bg-clip-content
+}
+
 .text-regular-style {
-  @apply font-[500] text-base leading-normal tracking-normal;
+  @apply font-[500] lg:text-base leading-normal tracking-normal;
 }
 
 .text-large-style {
-  @apply font-[700] text-[64px] tracking-normal leading-[94px]
+  @apply font-[700] lg:text-[64px] tracking-normal lg:leading-[94px]
 }
 
 .text-sm-style {
-  @apply font-[400] text-[15px] leading-[20px] tracking-normal text-[#A6A6A6]
+  @apply font-[400] lg:text-[15px] leading-[20px] tracking-normal text-[#A6A6A6]
+}
+
+.blur-effect {
+  animation: subtle-pulse 8s ease-in-out infinite;
 }
