@@ -5,7 +5,7 @@ import AboutSection from '../articles/aboutme/AboutSection';
 
 const Home = () => {
   return (
-  <MainLayout>
+  <MainLayout >
     <HeroSection />
     <AboutSection  />
   </MainLayout>

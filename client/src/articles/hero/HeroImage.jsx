@@ -21,10 +21,10 @@ const HeroImage = () => {
           </div>
           </div>
           {/* Case study */}
-          <div className="absolute bg-[#0F1419]/90 top-0 left-0 rounded-[16.75px] border-[0.84px] border-[#AD46FF]/20 h-[81.63px] w-[227.1px] shadow-[0px_26.16px_52.33px_-12.56_#000000]/25 px-[17.58px] pt-[17.58px] pb-[0.84px] flex gap-[12.56px]">
+          <div className="absolute bg-[#0F1419]/90 top-0 left-0 rounded-[16.75px] border-[0.84px] border-[#00B8DB33] h-[81.63px] w-[227.1px] shadow-[0px_26.16px_52.33px_-12.56_#000000]/25 px-[17.58px] pt-[17.58px] pb-[0.84px] flex gap-[12.56px]">
           <div className="aboutme-caseStudy-bg-gradient w-[41.86px] h-[41.86px] rounded-[28094142px] text-center justify-center flex items-center text-white">{checkMark}</div>
           <div>
-            <h2 className="text-[#C27AFF] font-bold text-[16.75px] whitespace-nowrap leading-[25px] tracking-normal">{caseStudyText}</h2>
+            <h2 className="text-[#00D3F3] font-bold text-[16.75px] whitespace-nowrap leading-[25px] tracking-normal">{caseStudyText}</h2>
             <p className="text-[#6A7282] tracking-normal leading-[20.93px] text-[14.65px] font-regular">{caseStudyP}</p>
           </div>
           </div>
