@@ -7,7 +7,7 @@ const AboutSection = () => {
     <section className="relative py-16">
       <div className="absolute top-0 w-full h-[1px] bg-gradient-to-r from-[#000000] via-[#00B8DB] to-[#000000] opacity-30"></div>
 
-      <div className="lg:flex items-center gap-10">
+      <div className="lg:flex items-center justify-between">
         <AboutMeImage />
         <AboutMeText />
       </div>
