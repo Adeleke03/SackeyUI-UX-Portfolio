@@ -5,7 +5,7 @@ import ToolsAndTech from "./ToolsAndTech";
 
 const ExpertiseSection = () => {
   return (
-    <div id="Skills">
+    <div id="Skills" className="py-16">
       <ExpertiseText />
       <ExpertiseCard />
       <ToolsAndTech />
