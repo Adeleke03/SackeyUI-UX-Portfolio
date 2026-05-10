@@ -18,7 +18,7 @@ const Navbar = () => {
       <Logo />
       {/* You can open the modal using document.getElementById('ID').showModal() method */}
 <button className="btn w-[40px] h-[40px] rounded-[14px] bg-white/5 border-[1.18px] border-white/10 items-center flex-col flex justify-center " onClick={()=>document.getElementById('my_modal_3').showModal()}><img src={Icon}/></button>
-<dialog id="my_modal_3" className="modal top-11 w-[319.5px] h-[370px] rounded-[16px] mx-auto bg-[#FFFFFF0D] border-[1.18px] border-white/10 text-[#D1D5DC]">
+<dialog id="my_modal_3" className="modal top-11 w-[319.5px] h-[370px] rounded-[16px] mx-auto bg-[#FFFFFF0D] backdrop-blur-md border-[1.18px] border-white/10 text-[#D1D5DC]">
   <div className="modal-box flex flex-col justify-around p-3">
     <form method="dialog">
       {/* if there is a button in form, it will close the modal */}

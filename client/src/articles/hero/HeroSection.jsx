@@ -5,7 +5,7 @@ import HeroImage from './HeroImage'
 const HeroSection = () => {
   return (
     
-    <div className='lg:mt-[75px] flex justify-between'>
+    <div className='lg:mt-[75px] px-5 lg:flex justify-between'>
       
         <HeroText />
         <HeroImage />

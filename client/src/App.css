@@ -36,11 +36,11 @@
 }
 
 .text-large-style {
-  @apply font-[700] lg:text-[64px] tracking-normal lg:leading-[94px];
+  @apply font-[700] lg:text-[64px] text-[50px] md:text-[60px] tracking-normal lg:leading-[94px];
 }
 
 .text-sm-style {
-  @apply font-[400] lg:text-[15px] leading-[20px] tracking-normal text-[#A6A6A6];
+  @apply font-[400] lg:text-[15px] text-[14px] leading-[20px] tracking-normal text-[#A6A6A6];
 }
 
 .blur-effect {
