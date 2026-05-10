@@ -50,7 +50,10 @@ const AboutMeText = () => {
         ))}
       </div>
       {/* button */}
-      <button className="text-[#ffffff] font-medium text-[18.75px] text-center mt-5 border-[0.84px] border-[#00B8DB4D] w-[181.25px] h-[60.28px] rounded-[14.65px] bg-linear-to-r from-[#00B8DB33] to-[#AD46FF33] ">
+      <button
+        onClick={() => window.open("https://wa.me/2349055854282", "_blank")}
+        className="cursor-pointer text-[#ffffff] font-medium text-[18.75px] text-center mt-5 border-[0.84px] border-[#00B8DB4D] w-[181.25px] h-[60.28px] rounded-[14.65px] bg-linear-to-r from-[#00B8DB33] to-[#AD46FF33] "
+      >
         Let's Connect
       </button>
     </div>

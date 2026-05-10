@@ -1,11 +1,31 @@
-const Pages = ({ className = '' }) => {
+import AnchorLink from "react-anchor-link-smooth-scroll";
+
+const Pages = ({ className = "", excludeItems = [] }) => {
+  const links = [
+    { label: "Home", href: "/" },
+    { label: "About", href: "#About" },
+    { label: "Skills", href: "#Skills" },
+    { label: "Projects", href: "#Projects" },
+    { label: "Contact", href: "#Contact" },
+  ];
+
+  const filteredLinks = links.filter(
+    (link) => !excludeItems.includes(link.label),
+  );
+
   return (
-    <ul className={`flex flex-col lg:flex-row items-center lg:w-[530px] lg:h-[57px] justify-around ${className}`}>
-      <li><a href="/">Home</a></li>
-      <li><a href="#About">About</a></li>
-      <li><a href="#Skills">Skills</a></li>
-      <li><a href="#Projects">Projects</a></li>
-      <li><a href="#Contact">Contact</a></li>
+    <ul
+      className={`flex flex-row items-center lg:w-132.5 lg:h-14.25  ${className}`}
+    >
+      {filteredLinks.map((link) => (
+        <li key={link.label}>
+          {link.href.startsWith("#") ? (
+            <AnchorLink href={link.href}>{link.label}</AnchorLink>
+          ) : (
+            <a href={link.href}>{link.label}</a>
+          )}
+        </li>
+      ))}
     </ul>
   );
 };

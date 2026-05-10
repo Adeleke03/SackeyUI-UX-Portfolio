@@ -9,7 +9,7 @@ const ExpertiseCard = () => {
   return (
     <div className="flex flex-col lg:flex-row lg:justify-center gap-8 p-5 lg:gap-5 my-10">
       {imgg.map((item, index) => (
-        <img src={item} alt="cards" />
+        <img key={index} src={item} alt="cards" />
       ))}
     </div>
   );
