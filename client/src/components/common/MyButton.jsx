@@ -24,7 +24,7 @@ const MyButton = ({
     navtext: "Let's Talk",
     herobtntext1: "View My Work →",
     herobtntext2: "Get in Touch",
-    casestudytext: ""
+    casestudytext: "",
   };
   const btntext = children || (text && texts[text]) || text;
   return (

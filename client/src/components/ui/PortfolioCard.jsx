@@ -55,32 +55,36 @@ const PortfolioCard = () => {
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-2 gap-y-4 mx-auto my-7">
       {projects.map((project, index) => {
         return (
-          <div
+          <a
+            href="https://www.behance.net/designedbysackey"
+            target="_blank"
+            rel="noopener noreferrer"
             key={index}
-            className="w-[368.67px] h-[479.8px] border-[0.84px] border-[#FFFFFF1A] rounded-[25.12px]"
           >
-            <img
-              src={project.imgg}
-              alt="project"
-              className="w-full h-[275.24px] rounded-tl-[25.12px] rounded-tr-[25.12px]"
-            />
-            <div className="p-[25.12px]">
-              <h3>{project.title}</h3>
-              <p className="font-normal text-[#99A1AF] text-[14.65px] mb-5">
-                {project.description}
-              </p>
-              <div className="flex items-center gap-3">
-                {project.skill.map((item, index) => (
-                  <button
-                    key={index}
-                    className="border-[0.84px] border-[#00B8DB33] w-[102.7px] h-[26.78px] rounded-[10.47px] font-medium text-[#00D3F3] text-[12.56px]"
-                  >
-                    {item}
-                  </button>
-                ))}
+            <div className="w-[368.67px] h-[479.8px] border-[0.84px] border-[#FFFFFF1A] rounded-[25.12px]">
+              <img
+                src={project.imgg}
+                alt="project"
+                className="w-full h-[275.24px] rounded-tl-[25.12px] rounded-tr-[25.12px]"
+              />
+              <div className="p-[25.12px]">
+                <h3>{project.title}</h3>
+                <p className="font-normal text-[#99A1AF] text-[14.65px] mb-5">
+                  {project.description}
+                </p>
+                <div className="flex items-center gap-3">
+                  {project.skill.map((item, index) => (
+                    <button
+                      key={index}
+                      className="border-[0.84px] border-[#00B8DB33] w-[102.7px] h-[26.78px] rounded-[10.47px] font-medium text-[#00D3F3] text-[12.56px]"
+                    >
+                      {item}
+                    </button>
+                  ))}
+                </div>
               </div>
             </div>
-          </div>
+          </a>
         );
       })}
     </div>
