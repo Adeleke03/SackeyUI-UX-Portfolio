@@ -3,6 +3,10 @@
 .gradient-text {
   @apply bg-gradient-to-r from-[#00D3F3] to-[#2B7FFF] bg-clip-text text-transparent;
 }
+.contact-gradient-text {
+  @apply bg-gradient-to-r from-[#00D3F3] to-[#AD46FF] bg-clip-text text-transparent ;
+}
+
 
 .gradient-text-header {
   @apply bg-gradient-to-r from-[#00D3F3] via-[#2B7FFF] to-[#9810FA] bg-clip-text text-transparent;
@@ -14,6 +18,10 @@
 
 .hero-header-bg-gradient {
   @apply bg-gradient-to-r from-[#00B8DB]/10 to-[#AD46FF]/10  bg-clip-content;
+}
+
+.Contact-card-bg-gradient {
+  @apply bg-gradient-to-r from-[#FFFFFF0D] to-[#00000000]  bg-clip-content;
 }
 
 .aboutme-bg-image-gradient {
