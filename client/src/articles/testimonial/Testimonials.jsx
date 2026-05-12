@@ -4,7 +4,7 @@ import TestimonialCard from "../../components/ui/TestimonialCard";
 
 const Testimonials = () => {
   return (
-    <div>
+    <div className="px-5">
       <TestimonialsText />
       <TestimonialCard />
     </div>
