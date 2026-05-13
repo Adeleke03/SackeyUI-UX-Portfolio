@@ -12,7 +12,7 @@ const TestimonialsText = () => {
         </div>
       </div>
       <h2 className="font-bold text-[50.24px] text-center mb-3">
-        <span className=" text-[#ffffff]">What Clients</span>
+        <span className=" text-[#ffffff]">What Clients </span>
         <br className="lg:hidden" />
         <span className="aboutme-gradient-header">Say</span>
       </h2>
