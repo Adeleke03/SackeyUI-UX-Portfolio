@@ -13,7 +13,7 @@ const ExpertiseText = () => {
       </div>
       <h2 className="font-bold text-[50.24px] text-center mb-3">
         <span className=" text-[#ffffff]">Core</span>
-        <span className="aboutme-gradient-header">Skills</span>
+        <span className="aboutme-gradient-header"> Skills</span>
       </h2>
       <div className="lg:flex justify-center">
         <p className="text-[18px] lg:text-[20px] text-[#99A1AF] font-normal w-90 md:w-120 text-center lg:w-[803.78px] ">
