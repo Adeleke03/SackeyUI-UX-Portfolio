@@ -32,11 +32,11 @@ const TestimonialCard = () => {
     },
   ];
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 my-10 mx-auto">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-10 mx-auto ">
       {testimonies.map((item) => (
         <div
           key={item.id}
-          className=" border-[0.84px] border-[#FFFFFF1A] w-[368.67px] h-[418.22px] rounded-[25.12px] p-7 bg-linear-to-r from-[#FFFFFF0D] to-[#00000000] flex flex-col"
+          className=" border-[0.84px] border-[#FFFFFF1A] w-[368.67px] md:w-auto h-[418.22px] rounded-[25.12px] p-7 bg-linear-to-r from-[#FFFFFF0D] to-[#00000000] flex flex-col"
         >
           <div className="bg-linear-to-r from-[#00B8DB33] to-[#AD46FF33] w-[50.24px] h-[50.24px] rounded-[14.65px] flex items-center justify-center">
             <img src={quote} alt="quote" />

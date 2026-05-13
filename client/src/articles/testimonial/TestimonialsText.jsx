@@ -16,8 +16,8 @@ const TestimonialsText = () => {
         <br className="lg:hidden" />
         <span className="aboutme-gradient-header">Say</span>
       </h2>
-      <div className="lg:flex justify-center">
-        <p className="text-[18px] lg:text-[20px] text-[#99A1AF] font-normal w-90 md:w-120 text-center lg:w-[803.78px] ">
+      <div className="md:flex items-center justify-center">
+        <p className="text-[18px] lg:text-[20px] text-[#99A1AF] font-normal w-90 md:w-[90%] text-center lg:w-[803.78px] ">
           Trusted by startups and enterprises to deliver exceptional design
           solutions
         </p>

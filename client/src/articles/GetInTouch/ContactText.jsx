@@ -8,13 +8,7 @@ const ContactText = () => {
     <div className="space-y-5">
 
     <div className="text-center">
-      <div className="flex flex-col items-center md:items-center lg:items-start xl:items-center">
-        <h1 className="uppercase  font-medium text-[#00D3F3] text-[14px] lg:text-[14.65px] leading-[20px] tracking-[0.7px]">
-          GET IN TOUCH
-        </h1>
-
-        <div className="h-[1px] w-24 bg-gradient-to-r from-[#00D3F3] to-transparent mt-1.5"></div>
-      </div>
+      
       <h2 className="text-[48px] w-[278px] md:text-[50px] md:w-[90%] mx-auto lg:text-3xl font-bold mt-6 leading-[48px]">
         Let's Create Something{" "}
         <span className="gradient-text-header">Amazing</span>

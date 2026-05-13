@@ -4,7 +4,7 @@ import ContactForm from './ContactForm'
 
 const ContactSection = () => {
   return (
-    <div id='Contact' className='relative px-5 bg-gradient-to-b from-[#0A0E1A] to-[#0C111D] min-h-screen overflow-x-hidden'>
+    <div id='Contact' className='relative pt-7 px-5 bg-gradient-to-b from-[#0A0E1A] to-[#0C111D] min-h-screen overflow-x-hidden'>
       
       {/* RESPONSIVE GLOW - Different sizes for different screens */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -16,8 +16,15 @@ const ContactSection = () => {
           bg-[radial-gradient(ellipse_at_center,_rgba(0,211,243,0.04)_0%,_rgba(0,211,243,0.01)_50%,_transparent_100%)]">
         </div>
       </div>
-      
+      <div className="flex flex-col text-center items-center">
+        <h1 className="uppercase  font-medium text-[#00D3F3] text-[14px] lg:text-[14.65px] leading-[20px] tracking-[0.7px]">
+          GET IN TOUCH
+        </h1>
+
+        <div className="h-[1px] w-24 bg-gradient-to-r from-[#00D3F3] to-transparent mt-1.5"></div>
+      </div>
       <div className='relative z-10 lg:flex lg:gap-10'>
+        
         <ContactText/>
         <ContactForm/> 
       </div>

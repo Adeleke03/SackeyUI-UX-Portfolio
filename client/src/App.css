@@ -13,7 +13,7 @@
 }
 
 .aboutme-gradient-header {
-  @apply bg-gradient-to-r from-[#00D3F3] via-[#AD46FF] to-[#000000]/0 bg-clip-text text-transparent;
+  @apply bg-gradient-to-r from-[#00D3F3] via-[#2B7FFF] to-[#9810FA] bg-clip-text text-transparent;
 }
 
 .hero-header-bg-gradient {

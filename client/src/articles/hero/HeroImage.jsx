@@ -3,7 +3,7 @@ const HeroImage = () => {
   const caseStudyP = "Successfully Done";
   const checkMark = "✓";
   return (
-    <div className="relative">
+    <div className="relative my-15 lg:my-0">
 
           
       <div className="md:top-[-16.7px] top-[-15px] lg:right-0 right-[-15px]  z-98 absolute border-[1.67px] border-[#00B8DB]/30 md:w-[134px] md:h-[134px] w-[95px] h-[95px] lg:rounded-[28094142px] rounded-[39602500px] "></div>

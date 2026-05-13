@@ -52,12 +52,12 @@ const PortfolioCard = () => {
     },
   ];
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-2 gap-y-4 mx-auto my-7">
+    <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-x-3 gap-y-4 mx-auto my-7">
       {projects.map((project, index) => {
         return (
           <div
             key={index}
-            className="w-[368.67px] h-[479.8px] border-[0.84px] border-[#FFFFFF1A] rounded-[25.12px]"
+            className="w-[368.67px] h-[479.8px] md:w-auto border-[0.84px] border-[#FFFFFF1A] rounded-[25.12px]"
           >
             <img
               src={project.imgg}
