@@ -54,7 +54,7 @@ const ContactForm = () => {
       />
       
       <form onSubmit={handleSubmit} className="flex flex-col gap-[23.99px]">
-        <div className="lg:flex lg:gap-4">
+        <div className="lg:flex lg:gap-4  ">
           {/* form name */}
           <div className="flex w-full flex-col gap-[8px]">
             <label
@@ -74,7 +74,7 @@ const ContactForm = () => {
           </div>
           
           {/* form email */}
-          <div className="flex w-full flex-col gap-[8px]">
+          <div className="flex w-full flex-col pt-7 lg:pt-0 gap-[8px]">
             <label
               htmlFor="email"
               className="text-[#99A1AF] text-[14px] leading-[16px] tracking-normal font-medium"
