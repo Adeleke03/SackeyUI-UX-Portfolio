@@ -1,6 +1,6 @@
 import React from "react";
 import customer1 from "../../assets/customer1.png";
-import customer2 from "../../assets/customer2.png";
+import customer2 from "../../assets/customerjeff.png";
 import customer3 from "../../assets/customer3.png";
 import quote from "../../assets/quote.png";
 import star from "../../assets/star.png";
@@ -19,9 +19,9 @@ const TestimonialCard = () => {
       id: 2,
       imgg: customer2,
       feedback:
-        '"Exceptional attention to detail and user experience. The design system they created became the foundation of our entire product suite."',
-      name: "Michael Rodriguez",
-      rank: "CEO, StartupX",
+        '"This is honestly some of the cleanest product design work I’ve seen in a while 👏🏾 The attention to detail, layout structure, and overall user experience is on another level. You can tell a lot of thought and creativity went into this. Sackey keeps proving why he’s one of the most talented designers out there 🚀"',
+      name: "Jephthah Adeleke",
+      rank: "Software Developer",
     },
     {
       id: 3,
